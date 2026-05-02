@@ -1,0 +1,98 @@
+.special {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+.text {
+    font-family: 'Great Vibes';
+    text-align: center;
+}
+.text2 {
+    font-family: 'Allura';
+    text-align: center;
+}
+.box {
+    width:200px;
+    margin-left:0px;
+    margin-top:0px;
+}
+.box2 {
+    width:150px;
+    margin-right:60px;
+    margin-top:10px;
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+
+/* Container */
+.photo-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* Main image */
+.main-img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Flowers */
+.flower {
+    position: absolute;
+    width: 200px;
+}
+
+/* Left flower */
+.left {
+    width: 300px;
+    top: 50%;
+    left: -500px;
+    transform: translateY(-50%);
+}
+
+/* Right flower */
+.right {
+    width: 300px;
+    top: 50%;
+    right: -500px;
+    transform: translateY(-50%);
+}
+.navbar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff4da6;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+.navbar a:hover {
+    background-color: #ff80bf;
+}
+.f{
+    color:aliceblue;
+    font-size:25px;
+    align-content:center;
+    justify-content:baseline
+
+}
+.gallery{
+    width:20px;
+    align-content:center;
+}
+.f{
+    color:aliceblue;
+    font-size:30px;
+    align-content:center;
+    justify-content:baseline
+
+}
